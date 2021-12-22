@@ -250,16 +250,16 @@ void drawMenu (int choise){  //прорисовка меню
      display.drawRect(12*scale, 1*scale, 60*scale, 13*scale, BLACK);
   }
   else{
-     display.drawRect(14*scale, 3*scale, 56*scale, 11*scale, BLACK);
+     display.drawRect(14*scale, 2*scale, 56*scale, 11*scale, BLACK);
 }
   if (choise == 2){
-     display.drawRect(12*scale, 16*scale, 60*scale, 13*scale, BLACK);
+     display.drawRect(12*scale, 17*scale, 60*scale, 13*scale, BLACK);
   }
   else{
      display.drawRect(14*scale, 18*scale, 56*scale, 11*scale, BLACK);
   }
   if (choise == 3){
-     display.drawRect(12*scale, 32*scale, 60*scale, 13*scale, BLACK);
+     display.drawRect(12*scale, 33*scale, 60*scale, 13*scale, BLACK);
   }
   else {
      display.drawRect(14*scale, 34*scale, 56*scale, 11*scale, BLACK);
